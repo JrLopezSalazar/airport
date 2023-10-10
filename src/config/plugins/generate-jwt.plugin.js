@@ -3,6 +3,8 @@ import { envs } from '../enviroments/enviroments.js'
 
 
 const generateJWT = id => {
+
+  
   return new Promise((resolve, reject) => {
     const payload = { id }
 
